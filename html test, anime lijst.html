@@ -3,58 +3,103 @@
     <head>
        <title>Anime list</title>
 
-<meta name="vierport" content="width=device-width,initial-scale=1">
-<style>
-      body {
-        background-color: rgb(255, 149, 130);
+        <meta name="vierport" content="width=device-width,initial-scale=1">
+        <style>
+            body {
+              background-color: rgb(255, 149, 130);
     
-      }
-      body {
-        color: black;  
-      }
+          }
+            body {
+              color: black;  
+          }
 
-      h1 {
-       color: black;
-      }
+            h1 {
+              color: black;
+          }
       
-      body { 
-          margin: 0;
-          font-family:Arial, Helvetica, sans-serif;
-      }
-      .topnav {
-          overflow: hidden;
-          background-color: #333;
-      }
+            body { 
+              margin: 0;
+              font-family:Arial, Helvetica, sans-serif;
+          }
+            .topnav {
+                overflow: hidden;
+                background-color: #333;
+          }
 
-      .topnav a {
-          float: left;
-          color: #f2f2f2;
-          text align:center;
-          padding: 14xp 16xp;
-      }
-</style>
-     </head>
-<body> 
+            .topnav a {
+                float: left;
+                color: #f2f2f2;
+                text align:center;
+                padding: 14xp 16xp;
+          }
 
-    <header>
-      <img src="https://i.pinimg.com/originals/c9/9d/c9/c99dc93a9f237be68a22d3de95e37110.jpg" heigth= "40" width= "70"  
-        <h1>My anime list</h1>
-        <hr>
-        <p>favourite animes:</p>
-    </header>
-    <nav>
-        <ol>
-          <li>Rise of the shield hero</li>
-          <li>sword art online</li>
-          <li>Demon Slayer</li>
-        </ol>
+       </style>
 
-        <ul>
-            <li><a href="https://www.wcostream.com/anime/sword-art-online">Sword Art Online</a></li>
-            <li><a href="https://www.wcostream.com/anime/the-rising-of-a-shield-hero">Rise of the shield hero</a></li>
-            <li><a href="https://m.wcostream.com/anime/demon-slayer">Demon Slayer</a></li>
-        </ul>
-    </nav>
+       <style>
+         body {
+           font-family: Arial, Helvetica, sans-serif;
+         }
+
+         .sidenav {
+           height: 90%;
+           width: 5;
+           position: fixed;
+           z-index: 0;
+           top: 0;
+           left: 0;
+           background-color:transparent deepskyblue
+           overflow-x: hidden;
+           transition: 0.8;
+           padding: 55px;   
+         }
+
+         .sidenav a:hover {
+           color:#f2f2f2
+         }
+         .sidenav .closebtn {
+           position: absolute;
+           top: 0;
+           right: 20px;
+          front-size: 31px;
+          margin-left: 45px;
+         }
+
+         @media screen and (max height: 434px;) {
+           .sidenav {padding-top: 12px}
+           .sidenav {font-size: 15px;}
+         }
+       </style>
+    </head>
+
+        <body> 
+          
+          <header> 
+            <div id="sidebar" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closenav()">&times;</a> 
+            <a href="#">anime list</a>
+            <a href="#">none role</a>
+            </div>
+          </header>
+
+          <header>
+              <img src="https://i.pinimg.com/originals/c9/9d/c9/c99dc93a9f237be68a22d3de95e37110.jpg" heigth= "40" width= "70"  
+                <h1>My anime list</h1>
+                <hr>
+                <p>favourite animes:</p>
+            </header>
+                  <nav>
+                    <ol>
+                      <li>Rise of the shield hero</li>
+                      <li>sword art online</li>
+                      <li>Demon Slayer</li>
+                    </ol>
+
+                    <ul>
+                      <li><a href="https://www.wcostream.com/anime/sword-art-online">Sword Art Online</a></li>
+                      <li><a href="https://www.wcostream.com/anime/the-rising-of-a-shield-hero">Rise of the shield hero</a></li>
+                      <li><a href="https://m.wcostream.com/anime/demon-slayer">Demon Slayer</a></li>
+                    </ul>
+                  </nav>
   
- </body>
+        </body>
 </html>
