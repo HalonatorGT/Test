@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <title>CSS</title>
+                <link rel="stylesheet" hef="mystyle.CSS">
+                
+                    p {
+                        color: skyblue;
+                        font-size: 65px;
+                    }
+
+                    .red {
+                        color: red;
+                    }
+
+                    #hello 
+                    {
+                        background-color: forestgreen;
+                    }
+
+            </head>
+    
+</html>        <p>text</p>
+            <p class="red">text</p>
+            <p>text</p>
+            <p>text</p>
+            <p class="red" id="hello">text</p>
+            <p>text</p>
+            <p>text</p>
+
+            <body>
+            
+            </body>
