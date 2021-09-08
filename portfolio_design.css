@@ -1,0 +1,40 @@
+.left {
+    padding-left: 5px;
+}
+
+.rechts {
+    padding-left: 5px;
+}
+
+body {
+    background-color:rgb(140, 226, 70)
+}
+
+body {
+   margin: 0;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+
+   .topnav {
+   overflow: hidden;
+   background-color
+   : #333;
+ }
+
+   .topnav a {
+   float: left;
+   color: #ffffff;
+   text-align: center;
+   padding: 12px 14px; 
+   text-decoration: black;
+   font-size: 15px;
+ }
+
+   .topnav a:hover {
+   background-color:white
+   color= black
+ }
+
+ div {
+    padding-left: 12px;
+}
