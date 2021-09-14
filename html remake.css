@@ -28,7 +28,7 @@ a {
     text-align: center;
     padding: 12px 14px;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 0.4cm;
 }
 
 .topnav a:hover {
@@ -46,21 +46,21 @@ a {
 .section1,
 .section2 {
     background-color: yellowgreen;
-    padding: 40px;
-    width: 260px;
-    height: 1200px;
+    padding: 1.05cm;
+    width: 7cm;
+    height: 31.8cm;
     border-style: solid;
-    border-bottom-right-radius: 60px;
-    border-top-right-radius: 60px;
+    border-bottom-right-radius: 4cm;
+    border-top-right-radius: 4cm;
 }
 
 .header2
  {
     background-color: green;
-    height: 400px;
-    width: 200px;
-    right: 40px;
-    top: 50px;
+    height: 11cm;
+    width: 5.42cm;
+    right: 1.12cm;
+    top: 0.5cm;
     position: relative;
 }
 
@@ -133,6 +133,6 @@ a {
     bottom: 20px;
     height: 60px;
     width: 80px;
-    background-color: crimson;
+    background-color: rgb(228, 255, 109);
     border-radius: 20px;
 }
