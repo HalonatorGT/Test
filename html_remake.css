@@ -1,0 +1,138 @@
+body {
+    background-color: skyblue;
+}
+
+.nav_list {
+    position: relative;
+    top: 18px;
+    right: 10px;
+    text-align: left;
+}
+
+p, 
+h1,
+article,
+section,
+a {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    text-decoration: none;
+    font-size: 0.4cm;
+}
+
+.topnav a:hover {
+    background-color: #04aa6d;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04aa6d;
+    color: black;
+}
+
+.header1,
+.header2,
+.section1,
+.section2 {
+    background-color: yellowgreen;
+    padding: 1.05cm;
+    width: 7cm;
+    height: 31.8cm;
+    border-style: solid;
+    border-bottom-right-radius: 4cm;
+    border-top-right-radius: 4cm;
+}
+
+.header2
+ {
+    background-color: green;
+    height: 11cm;
+    width: 5.42cm;
+    right: 1.12cm;
+    top: 0.5cm;
+    position: relative;
+}
+
+.section2 {
+    background-color: rgba(165, 119, 19, 0.918);
+    height: 380px;
+    width: 200;
+    position: relative;
+    right: 40px;
+    width: 200px;
+
+}
+
+#the_Donkey_button {
+    width: 75px;
+    background-color: rgb(189, 88, 214);
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 25px; 
+}
+
+.rikka {
+    position: relative;
+    bottom: 75px;
+    left: 120px;
+    height: 90px;
+    width: 90px;
+}
+
+.section_right {
+    background-color: hotpink;
+    position: relative;
+    text-align: right;
+    bottom: 1287px;
+    height: 800px;
+    width: 350px;
+    left: 1148px;
+    text-align: center;
+    border-style: solid;
+    border-bottom-left-radius: 60px;
+    border-top-left-radius: 60px;
+}
+
+.doos {
+    position: relative;
+    background-color: grey;
+   height: 400px;
+   width: 200px;
+   left: 147px;
+   border-style: solid;
+   border-bottom-left-radius: 60px;
+   border-top-left-radius: 60px;
+}
+
+.heading1 {
+    font-size: 33px;
+}
+
+.Naofumi {
+    position: relative;
+    top: 20px;
+    left: 120px;
+    height: 90px;
+    width: 90px;
+}
+
+#monke_button {
+    position: relative;
+    right: 100px;
+    bottom: 20px;
+    height: 60px;
+    width: 80px;
+    background-color: rgb(228, 255, 109);
+    border-radius: 20px;
+}
