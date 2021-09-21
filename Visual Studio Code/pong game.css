@@ -1,6 +1,5 @@
 body {
     color: crimson;
-    text-size-adjust: 1vw;
 }
 
 body {
@@ -13,9 +12,24 @@ body {
     margin-top: 5vw;
     margin-left: 25vw;
     margin-right: 25vw;
-    height: 35vw;
+    height: 34vw;
     width: 50vw;
+}
 
+.player {
+    background-color: indigo;
+    height: 8vw;
+    width: 1vw;
+    margin-left: 30vw;
+    margin-top: -21vw;
+}
+
+.bot {
+    background-color: deeppink;
+    height: 8vw;
+    width: 1vw;
+    margin-left: 68vw;
+    margin-top: -8vw;
 }
 
 
