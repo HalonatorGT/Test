@@ -20,7 +20,7 @@ body {
 }
 
 #player {
-    background-color: rgb(212, 162, 24);
+    background-color: rgb(190, 24, 212);
     height: 8vw;
     width: 1vw;
     margin-left: 68vw;
@@ -59,6 +59,15 @@ body {
     border-width: 0.5vw;
     text-align: center;
     margin-left: 50vw;
+}
+
+#ball {
+    position: absolute;
+    top: 10vw;
+    right: 30vw;
+    height: 20px;
+    width: 20px;
+    background-color: crimson;
 }
 
 
