@@ -13,7 +13,6 @@ body {
     border-color: navy;
     margin-top: 5vw;
     margin-left: 25vw;
-    margin-right: 25vw;
     height: 34vw;
     width: 50vw;
     border-width: 0.5vw;
@@ -47,6 +46,7 @@ body {
 #score_right {
     font-size: 2.5vw;
     color: white;
+    height: 5vw;
     width: 1vw;
     margin-left: 52vw;
     margin-top: -7vw;
