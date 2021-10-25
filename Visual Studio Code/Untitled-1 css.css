@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer,
+main {
+    width: 100vw;
+    /* vw=view width */
+    /* vw=view heigth */
+}
+
+header,
+footer {
+    height: 20vh;
+}
+
+header {
+    background-color: green;
+}
+
+main {
+    height: 60vh;
+    background-color: darkmagenta;
+}
+
+footer {
+    background-color: yellow;
+}
+
+.ball {
+    background-color: hotpink;
+    width: 20px;
+    height: 20px;
+    /* margin-top: 50%; */
+    top: 20px;
+    left: calc(50px - 10px);
+    position: relative;
+    /* margin-left: 50%; */
+}
+
+.playarea {
+    background-color: black;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    left: 20vh;
+    top: 20vw;
+}
+
+
