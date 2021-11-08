@@ -8,7 +8,6 @@
 }
 
 .sidelines {
-    background-color: deeppink;
     height: 50vh;
     width: 10vw;
     position: absolute;
@@ -18,7 +17,7 @@
 }
 
 body {
-    background-color: gray;
+    background-color: black;
 }
 
 game {
@@ -72,7 +71,7 @@ game {
     font-size:70px;
     position: absolute;
     top: 10%;
-    left: 40%;
+    left: 43%;
     transform: translate(-50%, -50%);
 }
 
@@ -90,8 +89,14 @@ game {
     background-color: white;
     height: 40px;
     width: 40px;
-    position: fixed;
+    border-radius: 50%;
+    position: absolute;
     top: calc(50% - 20px);
     left: calc(50% - 20px);
 }
 
+#test_cube {
+   background-color: lime;
+   height: 40px;
+   width: 40px;
+}
